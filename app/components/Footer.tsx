@@ -76,7 +76,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-gray-300 bg-white">
+    <footer className="w-full mt-3 border-t-2 border-gray-300 bg-white">
       {/* =====================================================
           MAIN FOOTER
       ====================================================== */}

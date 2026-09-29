@@ -40,7 +40,9 @@ export default function login() {
                 : "The registration process is straightforward, uncomplicated, and efficient, allowing users to sign up quickly, easily, and at no cost"}
             </p>
           </div>
-          <div className="relative card ml-5 mt-[150px]">
+          {/* -------image---------------- */}
+          <div className="relative ml-5 mt-[150px] w-[90%] max-w-[400px] sm:ml-5 sm:w-[400px]">
+            {/* Main card background */}
             <Image
               src="/login_Course_Card_back.png"
               width={400}
@@ -48,9 +50,12 @@ export default function login() {
               alt="course-card"
               loading="eager"
               fetchPriority="high"
+              className="h-auto w-full"
             />
+
+            {/* Course card */}
             <Image
-              className="absolute top-[-20%] right-[20%]"
+              className="absolute right-[20%] top-[-20%] h-auto w-[88%]"
               src="/login_Course_Card_1.png"
               width={400}
               height={200}
@@ -58,9 +63,10 @@ export default function login() {
               loading="eager"
               fetchPriority="high"
             />
-            {/* zigzag vector */}
+
+            {/* Zigzag vector */}
             <Image
-              className="absolute bottom-[-1%] right-[15%] z-10"
+              className="absolute bottom-[-1%] right-[15%] z-10 h-auto w-[29%]"
               src="/login_zigzag.png"
               width={130}
               height={200}
@@ -69,9 +75,9 @@ export default function login() {
               fetchPriority="high"
             />
 
-            {/* circle vector */}
+            {/* Circle vector */}
             <Image
-              className="absolute top-[-15%] right-[70%]"
+              className="absolute right-[70%] top-[-15%] h-auto w-[34%]"
               src="/circle-Cone.png"
               width={150}
               height={80}
@@ -80,9 +86,9 @@ export default function login() {
               fetchPriority="high"
             />
 
-            {/* review */}
+            {/* Review */}
             <Image
-              className="absolute bottom-[-12%] right-[13%]"
+              className="absolute bottom-[-12%] right-[13%] h-auto w-[55%]"
               src="/login_student_review.png"
               width={220}
               height={80}
@@ -91,9 +97,9 @@ export default function login() {
               fetchPriority="high"
             />
 
-            {/* cone */}
+            {/* Cone */}
             <Image
-              className="absolute bottom-[-20%] left-[0%]"
+              className="absolute bottom-[-20%] left-0 h-auto w-[50%]"
               src="/Cone.png"
               width={200}
               height={80}
@@ -102,6 +108,7 @@ export default function login() {
               fetchPriority="high"
             />
           </div>
+          {/* ------------- */}
         </div>
 
         {/* -----------login sinup form---------- */}
@@ -111,13 +118,15 @@ export default function login() {
             <p className="text-[44px] font-bold">
               {isLogin ? "Welcome Back" : "Welcome to ByteSpace"}
             </p>
-            <p className={`pt-8 ${isLogin ? "hidden" : "block mt-8"} `}>Full Name</p>
+            <p className={`pt-8 ${isLogin ? "hidden" : "block mt-8"} `}>
+              Full Name
+            </p>
             <input
               className={`w-full py-2 pl-3 border rounded ${isLogin ? "hidden" : "block"}`}
               type="text"
               placeholder="Arick Ahamed"
             />
-            <p className={`${isLogin?" block pt-8":"mt-3"} pt-8`}>Email</p>
+            <p className={`${isLogin ? " block pt-8" : "mt-3"} pt-8`}>Email</p>
             <input
               className="w-full py-2 pl-3 border rounded"
               type="email"
@@ -179,6 +188,3 @@ export default function login() {
     </div>
   );
 }
-
-
-
