@@ -191,7 +191,7 @@ export default function Home() {
           <div className="w-[70%] flex justify-self-center items-center flex-wrap justify-around gap-1 py-2">
             {searchData?.map((data) => (
               <p
-                key={data.i}
+                key={data}
                 className="inline py-1 px-2 rounded-xl bg-gray-200 mb-10"
               >
                 {data}
@@ -199,7 +199,7 @@ export default function Home() {
             ))}
             {extraSearchData?.map((data) => (
               <p
-                key={data.i}
+                key={data}
                 className="inline py-1 px-2 rounded-xl bg-gray-200 mb-10"
               >
                 {data}

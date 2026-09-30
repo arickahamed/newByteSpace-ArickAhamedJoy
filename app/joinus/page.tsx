@@ -44,21 +44,21 @@ export default function Joinus() {
         <div className="flex items-center justify-between text-[14px] text-slate-600">
           <div className="flex gap-2">
             <div className="flex items-center justify-center border border-gray-400 px-2 rounded-xl">
-              <i class="fa-solid fa-filter"></i>
+              <i className="fa-solid fa-filter"></i>
               <p>filter</p>
             </div>
             <div className="flex items-center justify-center border border-gray-400 px-2 rounded-xl">
-              <i class="fa-solid fa-chart-simple"></i>
+              <i className="fa-solid fa-chart-simple"></i>
               <p>level</p>
             </div>
             <div className="flex items-center justify-center border border-gray-400 px-2 rounded-xl">
-              <i class="fa-solid fa-table-cells-large"></i>
+              <i className="fa-solid fa-table-cells-large"></i>
               <p>category</p>
             </div>
           </div>
           <div>
             <div className="flex items-center justify-center border border-gray-400 py-1 px-2 rounded-xl">
-              <i class="fa-regular fa-star"></i>
+              <i className="fa-regular fa-star"></i>
               <p>most relavent</p>
             </div>
           </div>
@@ -158,7 +158,7 @@ export default function Joinus() {
                   </div>
                   <div className="text-gray-400 text-[14px] flex items-center">
                     <p>{course.rating}</p>
-                    <i class="fa-regular fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
                   </div>
                 </div>
                 <Image

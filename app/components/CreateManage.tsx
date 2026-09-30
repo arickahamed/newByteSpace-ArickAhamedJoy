@@ -98,19 +98,21 @@ export default function CreateManage() {
           </p>
           <div className="my-5 flex flex-col text-[16px]">
             <div className="flex items-center gap-2">
-              <i class="fa-solid fa-circle-check"></i>
+              <i className="fa-solid fa-circle-check">
+                
+              </i>
               <p>Share Your Expertise</p>
             </div>
             <div className="flex items-center gap-2">
-              <i class="fa-solid fa-circle-check"></i>
+              <i className="fa-solid fa-circle-check"></i>
               <p>Monetize Your Passion</p>
             </div>
             <div className="flex items-center gap-2">
-              <i class="fa-solid fa-circle-check"></i>
+              <i className="fa-solid fa-circle-check"></i>
               <p>Flexibility and Autonomy</p>
             </div>
             <div className="flex items-center gap-2">
-              <i class="fa-solid fa-circle-check"></i>
+              <i className="fa-solid fa-circle-check"></i>
               <p>Build a Community</p>
             </div>
           </div>

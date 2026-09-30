@@ -163,10 +163,10 @@ export default function login() {
               className={`${isLogin ? "flex" : "hidden"} w-full gap-2 justify-center items-center text-3xl`}
             >
               <div className="border rounded-xl p-1">
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-facebook"></i>
               </div>
               <div className="border rounded-xl p-1">
-                <i class="fa-brands fa-google"></i>
+                <i className="fa-brands fa-google"></i>
               </div>
             </div>
 

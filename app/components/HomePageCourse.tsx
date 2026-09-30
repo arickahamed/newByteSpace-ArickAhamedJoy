@@ -27,7 +27,7 @@ export default function HomePageCourse() {
                       </div>
                       <div className="text-gray-400 text-[14px] flex items-center">
                         <p>{course.rating}</p>
-                        <i class="fa-regular fa-star"></i>
+                        <i className="fa-regular fa-star"></i>
                       </div>
                     </div>
                     <Image
