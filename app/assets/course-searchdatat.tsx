@@ -1,0 +1,3 @@
+export const searchData = [
+    "Featured", "Music", "Drawing & Painting", "Marketing", "Animation", "Social Media", "UI/UX Design","Creative Marketing", "Cooking"
+]
